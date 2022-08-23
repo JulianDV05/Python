@@ -1,0 +1,27 @@
+str: cadena
+bin: binario        0b - numero en bin,2
+hex: hexadecimal      0x-num,16
+int: Entero
+abs: Valor absoluto
+round: Redondear un número a lo que tenga mas cerca
+len: Cuenta cuántos carácteres tiene la cadena
+
+CADENAS
+upper- cadena.upper: Convierte toda la cadena en mayúsculas
+lower: Convierte toda la cadena en minúsculas
+capitalize: Convierte la primera letra de la cadena en mayúscula
+Title: Convierte en mayúscula la primera letra de cada palabra de la cadena
+count: para contar cuantas veces hay algo dentro de la cadena ya sea letra o palabra, etc.
+Find: Busca el numero de índice en donde se encuentra lo que queremos buscar (el primero)
+rfind: lo mismo que find pero esta ves es para encontrar el numero de indice de la ultima coincidencia.
+isdigit: Saber si los datos de la cadena son numéricos. responde true or false
+isalpha: Saber si los caracteres con alfabéticos. imprime un resultado true or false
+isalnum: .isalnum esto comprueba si la cadena tiene caracteres alfanuméricos (letras y numeros)= True. pero si tiene algún otro simbolo false
+islower: Retorna un valor booleanos. este es para comprobar si toda la cadena está en minúscula y si así lo es, es true.
+isupper: Comprueba si todos los caracteres de la cadena están en mayusculas, si es así es true si no es false
+istitle: Comprobar si una cadena es un título. retorna un resultado booleano
+isspace: Comprueba si la cadena está llena de solo espacios
+startwith: Empieza con, esto es para saber con que empieza la cadena poniendo (' ')
+endwith: Finaliza con. preguntamos con que finaliza la cadena ponemos (' ') con lo que preguntamos.
+split: Separa los elementos en una lista, por cada espacio es un elemento de la lista
+strip: Quita los espacios tanto de adelante como los de atrás

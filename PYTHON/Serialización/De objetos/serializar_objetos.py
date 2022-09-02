@@ -24,3 +24,11 @@ class Vehiculos():
 coche1=Vehiculos("Mazda", "MX5")
 coche2=Vehiculos("Seat", "Leon")
 coche3=Vehiculos("Renault", "Megane")
+
+coches = [coche1, coche2, coche3]
+
+fichero=open("losCoches", "wb")
+pickle.dump(coches, fichero)
+
+fichero.close
+del (fichero)
